@@ -179,6 +179,9 @@ set smarttab
 set shiftwidth=2
 set tabstop=2
 
+" Set line numbers
+set nu
+
 " Linebreak on 500 characters
 set lbr
 set tw=500
