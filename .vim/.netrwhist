@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/ravals/Development/AppAcademy/GistCloneApp/app/assets/javascripts/views'
+let g:netrw_dirhist_2='/Users/ravals/Development/AppAcademy/GistCloneApp/app/assets/javascripts'
+let g:netrw_dirhist_3='/Users/ravals/Development/AppAcademy/GistCloneApp/app/assets'
+let g:netrw_dirhist_4='/Users/ravals/Development/AppAcademy/GistCloneApp/app/assets/stylesheets'
+let g:netrw_dirhist_5='/Users/ravals/Development/AppAcademy/GistCloneApp/app/assets'
+let g:netrw_dirhist_6='/Users/ravals/Development/AppAcademy/GistCloneApp/app'
+let g:netrw_dirhist_7='/Users/ravals/Development/AppAcademy/GistCloneApp'
+let g:netrw_dirhist_8='/Users/ravals/Development/AppAcademy/progress-tracker/app/assets/javascripts/final_project'
+let g:netrw_dirhist_9='/Users/ravals/Development/AppAcademy/progress-tracker/app/assets/stylesheets'
