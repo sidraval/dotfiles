@@ -42,7 +42,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Sid's stuff
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-noremap ,t :FufTaggedFile<CR>
+noremap ,t :<C-u>FufFile **/<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -139,12 +139,8 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable 
 
-try
-    colorscheme desert
-catch
-endtry
-
 set background=dark
+colorscheme solarized
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -358,9 +354,6 @@ map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
-
-colorscheme torte
-
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
