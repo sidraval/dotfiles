@@ -104,6 +104,7 @@
 
 (defun dotspacemacs/user-config ()
   (require 'helm-bookmark)
+  (spacemacs/toggle-truncate-lines-on)
   (setq org-agenda-files (list "~/Dropbox/index.org")))
 
 (custom-set-variables

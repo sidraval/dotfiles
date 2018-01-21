@@ -15,5 +15,7 @@ em() {
     emacsclient -c "$1" &
 }
 
+export EDITOR="emacsclient -c"
+
 # OPAM configuration
 . /Users/sid/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
