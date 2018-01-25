@@ -104,7 +104,7 @@
 
 (defun dotspacemacs/user-config ()
   (require 'helm-bookmark)
-  (spacemacs/toggle-truncate-lines-on)
+  (add-hook 'hack-local-variables-hook (lambda () (setq truncate-lines t)))
   (setq org-agenda-files (list "~/Dropbox/index.org")))
 
 (custom-set-variables
