@@ -103,8 +103,10 @@
    ))
 
 (defun dotspacemacs/user-init ()
-  (setq-default
-   evil-escape-key-sequence "jk"))
+  (setq-default evil-escape-key-sequence "jk")
+  (setq-default js2-basic-offset 2)
+  (setq-default web-mode-markup-indent-offset 2)
+  (setq-default web-mode-code-indent-offset 2))
 
 (defun dotspacemacs/user-config ()
   (require 'helm-bookmark)
